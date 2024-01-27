@@ -33,7 +33,7 @@ export default function Home() {
       )}
 
       {thumbnails?.map((thumbnail) => {
-        return <div key={thumbnail.id}>{thumbnail.title}</div>;
+        return <div key={thumbnail._id}>{thumbnail.title}</div>;
       })}
     </main>
   );
